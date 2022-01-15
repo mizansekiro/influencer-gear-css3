@@ -1,0 +1,238 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Common Style */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+    margin: 0px;
+    font-weight: normal;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.btn {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+
+
+/* Header Style */
+.manu ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    text-align: right;
+
+}
+
+.manu ul li {
+    margin-right: 30px;
+}
+
+
+/* Banner section style */
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-left {
+    padding-top: 30px;
+}
+
+.banner-left a {
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+}
+
+.banner h1 {
+    font-Size: 52px;
+
+}
+
+.banner p {
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+/* banner style end */
+/*  <!-- Popular Collection Start--> */
+.popular-collection {
+
+    margin-left: 196px;
+    margin-right: 196px;
+}
+
+.popular-collection-header>h2 {
+    text-align: center;
+    font-weight: 600px;
+    font-size: 28px;
+    margin-bottom: 27px;
+
+}
+
+.collection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-bottom: 100px;
+
+
+}
+
+.product {
+    border-radius: 5px;
+    box-shadow: 0 10px 35px 0 #AAAAAA;
+    padding: 10px;
+
+
+    /* line-height: 0px; */
+}
+
+.product img {
+    width: 100%;
+}
+
+.product h3 {
+    font-size: 28px;
+    font-weight: 500px;
+
+}
+
+.product p {
+    font-weight: lighter;
+    color: #787885;
+    margin: 0;
+
+
+}
+
+.price {
+    font-size: 24px;
+    font-weight: normal;
+
+}
+
+.rating {
+    display: flex;
+
+
+
+}
+
+.stars ul {
+    display: flex;
+    padding-left: 0;
+}
+
+.stars ul li {
+    list-style: none;
+    color: gold;
+    margin-right: 2px;
+}
+
+.rating-num {
+    margin-left: 8px;
+    padding-top: 17px;
+}
+
+.see-more {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.see-more-link {
+    color: #E02C6D;
+    text-decoration: none;
+
+}
+
+/* featured style */
+.featured {
+    display: flex;
+
+}
+
+.featured-right {
+    margin-left: 96px;
+}
+
+.featured-right {
+    margin-left: 96px;
+}
+
+.featured-right h1 {
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.featured-right p {
+    margin-bottom: 30px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    background-color: #0A0826;
+    color: #FFFFFF;
+
+
+
+}
+
+.footer-contain {
+    padding: 50px 0px;
+    text-align: center;
+    margin: 0;
+}
+
+.footer-contain h3 {
+    margin: 0;
+}
+
+.footer-contain p {
+    margin: 0;
+}
+
+.contact-social-media ul {
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+
+}
+
+.contact-social-media ul li {
+
+    list-style: none;
+    height: 32px;
+    width: 32px;
+    margin: 0px 8px;
+    background-color: #6d6969;
+    border-radius: 16px;
+}
+
+.contact-social-media ul li a {
+    line-height: 34px;
+    font-size: 16px;
+    color: #FFFFFF;
+
+
+}
