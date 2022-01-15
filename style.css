@@ -295,20 +295,24 @@ header {
     .banner-left a {
         height: 44px;
         border-radius: 41px;
+        line-height: 4;
+        margin-bottom: 0;
     }
 
     .banner h1 {
         font-Size: 28px;
+        margin-bottom: 0;
 
     }
 
     .banner p {
-        width: 380px;
-        margin-bottom: 14px;
+        width: 100%;
+        margin: 0;
+
     }
 
     .banner img {
-        width: 80%;
+        width: 100%;
     }
 
     /* banner style end */
@@ -323,7 +327,7 @@ header {
     .popular-collection-header>h2 {
         text-align: center;
         font-weight: 600px;
-        font-size: 16px;
+        font-size: 24px;
         margin-bottom: 27px;
 
     }
